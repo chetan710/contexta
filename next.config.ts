@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    serverComponentsExternalPackages: ['pdf2json', 'pdf-lib', 'pdf-poppler'],
-  },
+  /* config options here */
 };
 
 export default nextConfig;
